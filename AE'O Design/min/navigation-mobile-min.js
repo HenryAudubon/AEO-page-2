@@ -1,1 +1,0 @@
-function toggle_nav(){document.getElementById("offcanvas").checked?document.getElementById("html").style.margin="0px 0px 0px 200px":document.getElementById("html").style.margin="0px 0px 0px 0px"}
