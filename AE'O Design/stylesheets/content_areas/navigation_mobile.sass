@@ -1,0 +1,84 @@
+$nav-width: 75%
+
+ul
+  padding: 0px
+  //margin: 0px
+
+//MOBILE NAVIGATION BAR
+nav
+  .nav-items
+    a
+      display: none
+  .toggle-nav
+    float: right
+    display: inline-block
+    //padding: 22px 40px
+    cursor: pointer
+    //background-image: url('../images/burger.png')
+  img
+    padding: 22px 18px 22px 18px   
+
+//MOBILE NAVIGATION POP-OUT MENU
+aside
+  display: block
+  margin-left: 100%
+  width: $nav-width
+  height: 100%
+  float: right
+  position: absolute
+  background-color: #ebebeb
+  .brown-nav
+    background-color: #2b2928
+    //background-image: url('../images/WV_homepage_59.png')
+  ul
+    list-style: none
+    li
+      a
+        display: block
+        //padding: 50px 40px
+        padding: 4vh 8vw
+        letter-spacing: 10px
+        color: #353230
+      .brown-nav
+        color: #7a7a79
+      //a:nth-child(1)
+        padding-top: 20px
+      //a:nth-child(6)
+        padding-top: 20px
+    li:nth-child(5)
+      font-weight: bold
+      padding-bottom: 3vh
+    li:nth-child(6) > a
+      padding-top: 5vh
+      padding-bottom: 10px
+      img
+        width: 200px
+
+section
+  width: 100%
+  height: 100%
+  float: left
+  margin-left: 0px
+
+//TRANSITION
+aside, section
+  transition: margin 0.35s ease//-in-out
+
+
+.toggle:checked + .wrapper > aside
+  margin-left: 100%-$nav-width
+
+.toggle:checked + .wrapper > section
+  margin-left: -$nav-width
+
+.biglabel
+  width: 100%
+  height: 100%
+  position: absolute
+  cursor: pointer
+  display: none
+//.toggle:checked + .wrapper > .wrapper-inner
+  margin-right: -200px//40%
+
+.toggle:checked + .wrapper > section > .biglabel
+  display: block

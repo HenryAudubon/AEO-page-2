@@ -1,0 +1,43 @@
+/*
+Error: Invalid property: "background-image:" (no value).
+        on line 5 of /Users/henrybutler/Documents/AE'O Design/stylesheets/styling.sass
+
+1: .image-block
+2:   .history
+3:     background-image: url("../images/history.jpg")
+4:   .nature
+5:     background-image:
+
+Backtrace:
+/Users/henrybutler/Documents/AE'O Design/stylesheets/styling.sass:5
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:719:in `parse_property'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:681:in `parse_property_or_rule'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:647:in `parse_line'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:525:in `build_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:544:in `block in append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `each'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:534:in `block in build_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:527:in `each'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:527:in `build_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:544:in `block in append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `each'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:534:in `block in build_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:527:in `each'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:527:in `build_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:544:in `block in append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `each'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:543:in `append_children'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:396:in `_to_tree'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:415:in `run'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/henrybutler/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid property: \"background-image:\" (no value).\A         on line 5 of /Users/henrybutler/Documents/AE'O Design/stylesheets/styling.sass\A \A 1: .image-block\A 2:   .history\A 3:     background-image: url(\"../images/history.jpg\")\A 4:   .nature\A 5:     background-image:"; }

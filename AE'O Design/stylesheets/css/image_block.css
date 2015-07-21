@@ -1,0 +1,31 @@
+.image-block .history {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 15px;
+  background-image: url("../images/history.jpg");
+  background-size: cover;
+  padding: 110px 60px 40px 0px; }
+  .image-block .history h1 {
+    text-align: right;
+    font-weight: normal; }
+  .image-block .history p {
+    text-align: right;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 2px; }
+.image-block .nature {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 15px;
+  background-image: url("../images/nature.jpg");
+  background-size: cover;
+  padding: 110px 0px 40px 60px; }
+  .image-block .nature h1 {
+    text-align: left;
+    font-weight: normal; }
+  .image-block .nature p {
+    text-align: left;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 2px; }

@@ -1,0 +1,136 @@
+hr
+  margin: 40px 0px
+
+.content-header-top
+  @include row()
+  @include col(100%)
+  font-size: 16px
+  letter-spacing: 9px
+  line-height: 40px
+  padding: 10px
+  width: 95%
+  margin-bottom: -43px
+  position: relative
+  z-index: 100
+
+.the-facade
+  @include col(50%)
+
+.deck-image
+  @include col(50%)
+  position: relative
+  z-index: -100
+  float: right
+  
+  img
+    width: 100%
+
+.view-image
+  @include col(50%)
+  z-index: -100
+  img
+    width: 95%
+.the-green-edge
+  @include col(50%)
+  float: right
+.inner-content-area-top
+  @include row()
+  //border-style: solid
+  .the-facade
+    padding: 10px
+    p
+      text-transform: none
+      font-size: 12px
+      line-height: 18px
+      width: 92%
+    h1
+      letter-spacing: 16px
+      line-height: 72px
+      font-size: 32px
+      
+    h1:nth-child(1)
+      color: #acacac
+      font-weight: normal
+      font-size: 14px
+      letter-spacing: 8px
+      margin: 60px 0px 0px 0px
+    
+.inner-content-area-bottom
+  @include row()
+  //border-style: solid
+  margin-bottom: 50px
+  .the-green-edge
+    //margin-top: 300px
+    padding: 10px
+    height: auto
+    position: relative
+    p
+      text-transform: none
+      font-size: 12px
+      line-height: 18px
+      width: 92%
+      margin-bottom: 60px
+    h1:nth-child(1)
+      color: #acacac
+      font-weight: normal
+      font-size: 14px
+      letter-spacing: 8px
+      margin: 0px 0px 30px 0px
+    a
+      font-size: 12px
+      letter-spacing: 6px
+      color: white
+      background-color: #353230 
+      padding: 16px 20px
+  .content-header-bottom
+    p
+      overflow: auto
+      text-transform: uppercase
+      font-size: 16px
+      letter-spacing: 8px
+      line-height: 40px
+      padding: 10px
+      margin-left: -25%
+      width: 135%
+      //position: absolute
+      z-index: 100
+      //@media screen and (max-width:1280px)
+        margin-left: 30%
+        width: 50%
+
+//MOBILE
+@media screen and (max-width:810px)
+  
+  .the-green-edge
+    @include col(100%)
+  .view-image
+    @include col(100%)
+    img
+      width: 100%
+  .inner-content-area-top
+    .the-facade
+      @include col(100%)
+      #design
+        display: none
+      h1
+        font-size: 28px
+      p
+        margin-left: 10px
+        font-size: 20px
+        letter-spacing: 2px
+        line-height: 24px
+  .deck-image
+    @include col(100%)
+    .content-header-top
+      margin-bottom: 20px
+    
+  .inner-content-area-bottom
+    .content-header-bottom
+      p 
+        margin-left: 0px
+        width: 100%
+    .the-green-edge
+      p:nth-child(2)
+        font-size: 20px
+        letter-spacing: 2px
+        line-height: 24px

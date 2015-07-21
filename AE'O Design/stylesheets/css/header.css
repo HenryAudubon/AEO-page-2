@@ -1,0 +1,16 @@
+header {
+  padding: 20px 0px 0px 220px;
+  color: #353230; }
+  header h1 {
+    text-align: left;
+    font-size: 60px;
+    letter-spacing: 24px;
+    line-height: 90px;
+    margin-bottom: 0px; }
+  header img {
+    margin-top: 15px;
+    float: left;
+    width: 215px; }
+  header p {
+    margin-top: 85px;
+    text-align: left; }

@@ -1,0 +1,28 @@
+//.wrapper
+  min-width: 0
+//html
+  margin: 0px 0px 0px 100px
+body
+  overflow-x: hidden
+.image-block
+  height: auto
+  max-height: 1200px
+  .history
+    //@include row()
+    @include col(100%)
+    height: 600px
+    background-size: cover
+  .nature
+    //@include row()
+    @include col(100%)
+    height: 600px
+    background-size: cover
+.inner-content-area
+  @include col(100%)
+  margin: 0px auto
+  
+.left-gutter
+  @include col(0%)
+    
+.right-gutter
+  @include col(0%)

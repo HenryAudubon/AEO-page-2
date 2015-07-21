@@ -1,0 +1,13 @@
+@mixin row()
+  &:before, &:after
+    content: ""
+    display: table
+    clear: both
+
+@mixin col($width) 
+  float: left
+  min-height: 1px
+  //gutter. no gutter for now, but maybe later
+  padding: 0px
+  height: inherit
+  width: $width

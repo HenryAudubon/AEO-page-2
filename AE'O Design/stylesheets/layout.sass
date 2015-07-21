@@ -1,0 +1,49 @@
+.wrapper
+  margin: 0 auto
+  max-width: 1280px
+  //float: right
+  //min-wdith: 900px
+  //min-width: 1280px
+
+//.wrapper-inner
+  float: right
+
+nav
+  background-color: black
+  color: white
+  @include row()
+  @include col(100%)
+  height: 30px
+  background-color: #ededed
+
+header
+  @include row()
+  @include col(100%)
+  height: 450px
+  
+.image-block
+  @include row()
+  @include col(100%)
+  height: 50vw
+  max-height: 600px
+  .history
+    @include col(50%)
+    //background-color: #ededed
+    //height: 600px
+  .nature
+    @include col(50%)
+    //background-color: #ededed
+    //height: 600px
+    //@include col(50%)
+    //background-color: #ededed
+.content-area
+  @include row()  
+.inner-content-area
+  @include col(80%)
+  margin: 0px auto
+  
+.left-gutter
+  @include col(10%)
+    
+.right-gutter
+  @include col(10%)

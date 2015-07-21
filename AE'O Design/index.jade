@@ -1,0 +1,17 @@
+html#html
+  head
+    link(rel="stylesheet" type="text/css" href="css/main.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    //script(src="navigation-mobile.js")
+  body
+    input(type="checkbox")#offcanvas.toggle
+    .wrapper
+      include jade_partials/navigation_aside.jade
+      section
+        include jade_partials/navigation.jade
+        include jade_partials/header.jade
+        include jade_partials/image_block.jade
+        include jade_partials/content_area.jade
+        include jade_partials/register_cta.jade
+        include jade_partials/footer.jade
+      
